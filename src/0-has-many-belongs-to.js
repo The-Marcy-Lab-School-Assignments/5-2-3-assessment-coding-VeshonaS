@@ -16,9 +16,11 @@ class ToDoItem {
 
 class ToDoList {
   allLists =[]
+  /** FEEDBACK: Here, allItems is not being used so it is not needed in the parameter. */
   constructor(name, allItems) {
     this.name = name 
     this.id = getId();
+    /** FEEDBACK: allItems should be a static/class array and when you create an instance of a toDoList it gets added to the static array.   */
     this.allItems = []
   }
   createItem(des, priorityLevel){
@@ -29,6 +31,9 @@ class ToDoList {
   getItems(){
     return [...this.allItems ]
   }
+  /** FEEDBACK: You are kind of close, we do want to check if the current object's .isDone's value is true and we do want to keep track of it.
+   * What is missing here is that we need to iterate through the entire toDoList and keep track of how many toDoItems are completed!
+   */
   getCompletedCount(){
     if (this.isDone === true ){
       this.choreCounter++
@@ -39,7 +44,7 @@ class ToDoList {
     // return instanceof ToDoList
   }
   static findBy(id){
-  
+    /** FEEDBACK: Here you should be iterating through the static property that is holding the list.*/
     for (let item of this.allItems){
       if (item.id === id){
         return item

@@ -1,12 +1,5 @@
 {
   "testScores": {
-    "Factory Function Tests": {
-      "FaFuTe1": 1,
-      "FaFuTe2": 1,
-      "FaFuTe3": 0,
-      "FaFuTe4": 1,
-      "FaFuTe5": 1
-    },
     "Has Many / Belongs To Tests": {
       "HaMa/BeToTe1": 1,
       "HaMa/BeToTe2": 1,
@@ -23,6 +16,13 @@
       "HaMa/BeToTe13": 1,
       "HaMa/BeToTe14": 1,
       "HaMa/BeToTe15": 1
+    },
+    "Factory Function Tests": {
+      "FaFuTe1": 1,
+      "FaFuTe2": 1,
+      "FaFuTe3": 0,
+      "FaFuTe4": 1,
+      "FaFuTe5": 1
     },
     "Inheritance & Polymorphism Tests": {
       "In&PoTe1": 1,
@@ -43,11 +43,6 @@
     }
   },
   "idToTestNameHash": {
-    "FaFuTe1": "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods",
-    "FaFuTe2": "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number",
-    "FaFuTe3": "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given",
-    "FaFuTe4": "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message",
-    "FaFuTe5": "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message",
     "HaMa/BeToTe1": "Has Many / Belongs To Tests ToDoItem - Creates the minimum required instance properties",
     "HaMa/BeToTe2": "Has Many / Belongs To Tests ToDoList - Creates the minimum required instance properties",
     "HaMa/BeToTe3": "Has Many / Belongs To Tests ToDoList - Has the minimum required instance methods",
@@ -63,6 +58,11 @@
     "HaMa/BeToTe13": "Has Many / Belongs To Tests ToDoItem - Has at *least* one extra instance method",
     "HaMa/BeToTe14": "Has Many / Belongs To Tests ToDoList - Has at *least* one extra instance property",
     "HaMa/BeToTe15": "Has Many / Belongs To Tests ToDoList - Has at *least* one extra instance method",
+    "FaFuTe1": "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods",
+    "FaFuTe2": "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number",
+    "FaFuTe3": "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given",
+    "FaFuTe4": "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message",
+    "FaFuTe5": "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message",
     "In&PoTe1": "Inheritance & Polymorphism Tests Phone - creates the right instance properties",
     "In&PoTe2": "Inheritance & Polymorphism Tests Phone - creates the right instance methods",
     "In&PoTe3": "Inheritance & Polymorphism Tests Phone - addContact(): adds a contact to the contacts array and returns the right message",
@@ -80,11 +80,6 @@
     "In&PoTe15": "Inheritance & Polymorphism Tests AppleIPhone - sendIMessage(): returns the right message when messaging iPhones vs. others"
   },
   "testNameToIdHash": {
-    "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods": "FaFuTe1",
-    "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number": "FaFuTe2",
-    "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given": "FaFuTe3",
-    "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message": "FaFuTe4",
-    "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message": "FaFuTe5",
     "Has Many / Belongs To Tests ToDoItem - Creates the minimum required instance properties": "HaMa/BeToTe1",
     "Has Many / Belongs To Tests ToDoList - Creates the minimum required instance properties": "HaMa/BeToTe2",
     "Has Many / Belongs To Tests ToDoList - Has the minimum required instance methods": "HaMa/BeToTe3",
@@ -100,6 +95,11 @@
     "Has Many / Belongs To Tests ToDoItem - Has at *least* one extra instance method": "HaMa/BeToTe13",
     "Has Many / Belongs To Tests ToDoList - Has at *least* one extra instance property": "HaMa/BeToTe14",
     "Has Many / Belongs To Tests ToDoList - Has at *least* one extra instance method": "HaMa/BeToTe15",
+    "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods": "FaFuTe1",
+    "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number": "FaFuTe2",
+    "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given": "FaFuTe3",
+    "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message": "FaFuTe4",
+    "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message": "FaFuTe5",
     "Inheritance & Polymorphism Tests Phone - creates the right instance properties": "In&PoTe1",
     "Inheritance & Polymorphism Tests Phone - creates the right instance methods": "In&PoTe2",
     "Inheritance & Polymorphism Tests Phone - addContact(): adds a contact to the contacts array and returns the right message": "In&PoTe3",
@@ -117,9 +117,9 @@
     "Inheritance & Polymorphism Tests AppleIPhone - sendIMessage(): returns the right message when messaging iPhones vs. others": "In&PoTe15"
   },
   "humanReadable": {
-    "Factory Function Tests": "4/5",
-    "finalTestScore": "FINAL SCORE: 24/35",
     "Has Many / Belongs To Tests": "11/15",
+    "finalTestScore": "FINAL SCORE: 24/35",
+    "Factory Function Tests": "4/5",
     "Inheritance & Polymorphism Tests": "9/15"
   }
 }
