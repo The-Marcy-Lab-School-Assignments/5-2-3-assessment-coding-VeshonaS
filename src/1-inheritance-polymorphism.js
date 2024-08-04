@@ -18,6 +18,7 @@ class Phone {
     
   }
   addContact(contact){
+    /** FEEDBACK: When we use typeof what data type are the results?  */
     if ( typeof contact !== String && contact.length !== 10){
       return 'Invalid'
     }
@@ -27,6 +28,7 @@ class Phone {
     
   
   removeContact(name){
+    /** FEEDBACK: You are pretty close! We definitely need to find the contact's index before we remove it but we also need to check if a phoneNumber is valid and in the contacts array! */
     for(let i = 0; i < this.contacts; i++){
       let person = this.contacts[i]
       if (person.name === name){
